@@ -1,6 +1,9 @@
 
 
-
+import House1 from './assets/OIP (1).jpg'
+import House2 from './assets/OIP (2).jpg'
+import House3 from './assets/OIP.jpg'
+import House4 from './assets/8d7f0a0c4b29bbbb324d315b25fac569.jpg'
 
 export const housesData = [
     {
@@ -86,7 +89,7 @@ export const housesData = [
         name: 'Kaitlyn Gonzalez',
         phone: '0123 456 78910',
       },
-    },
+    },/*
     {
       id: 5,
       type: 'House',
@@ -380,5 +383,5 @@ export const housesData = [
         name: 'Karen Sorensen',
         phone: '0123 456 78910',
       },
-    },
+    },*/
   ];
