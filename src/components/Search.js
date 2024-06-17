@@ -1,8 +1,21 @@
 import React from 'react'
+import CountryDropDown from '../components/CountryDropdown'
+import PropertyDropDown from '../components/PropertyDropdown'
+import PriceRangeDropDown from '../components/PriceRangeDropDown'
+
+import {RiSearch2Line} from 'react-icons/ri'
 
 const Search = () => {
   return (
-    <div>Search</div>
+    <div className='px-[30px] py-3 max-w-[1000px] mx-auto flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:-top-4 lg:shadow-1 bg-white 
+    lg:bg-transparent lg:backdrop-blur rounded-lg'>
+    <CountryDropDown/>
+    <PropertyDropDown/>
+    <PriceRangeDropDown/>
+    <button className='bg-sky-200 hover:bg-sky-300 transition w-full lg:max-w-[120px] h-10 rounded-lg flex justify-center items-center text-white text-lg '>
+   <RiSearch2Line/>
+    </button>
+    </div>
   )
 }
 
