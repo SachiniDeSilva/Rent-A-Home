@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CountryDropDown from '../components/CountryDropdown'
 import PropertyDropDown from '../components/PropertyDropdown'
 import PriceRangeDropDown from '../components/PriceRangeDropDown'
 
 import {RiSearch2Line} from 'react-icons/ri'
+import { HouseContext } from './HouseContext'
+
 
 const Search = () => {
+  
   return (
     <div className='px-[30px] py-3 max-w-[1000px] mx-auto flex flex-col lg:flex-row justify-between gap-4 lg:gap-x-3 relative lg:-top-4 lg:shadow-1 bg-white 
     lg:bg-transparent lg:backdrop-blur rounded-lg'>

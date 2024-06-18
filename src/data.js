@@ -13,7 +13,7 @@ export const housesData = [
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House1,
-      imageLg: House1Lg,
+     
       country: 'United States',
       address: '7240C Argyle St. Lawndale, CA 90260',
       bedrooms: '6',
@@ -34,7 +34,7 @@ export const housesData = [
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House2,
-      imageLg: House2Lg,
+    
       country: 'Canada',
       address: '798 Talbot St. Bridgewater, NJ 08807',
       bedrooms: '6',
@@ -55,7 +55,7 @@ export const housesData = [
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House3,
-      imageLg: House3Lg,
+      
       country: 'United States',
       address: '2 Glen Creek St. Alexandria, VA 22304',
       bedrooms: '6',
@@ -76,7 +76,7 @@ export const housesData = [
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House4,
-      imageLg: House4Lg,
+     
       country: 'Canada',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '6',
