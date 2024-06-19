@@ -18,7 +18,7 @@ const HouseContextProvider = ({children}) => {
       return houses.country;
     })
     
-    const uniqueCountries = ['Location (any)', ...new Set(allCountries)];
+    const uniqueCountries = ['Location (any)', new Set(allCountries)];
 
 
     setCountries(uniqueCountries)

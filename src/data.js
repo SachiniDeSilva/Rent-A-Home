@@ -18,7 +18,7 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House1,
      
-      country: 'United States',
+      country: 'Colombo',
       address: '7240C Argyle St. Lawndale, CA 90260',
       bedrooms: '6',
       bathrooms: '3',
@@ -39,7 +39,7 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House2,
     
-      country: 'Canada',
+      country: 'Colombo',
       address: '798 Talbot St. Bridgewater, NJ 08807',
       bedrooms: '6',
       bathrooms: '3',
