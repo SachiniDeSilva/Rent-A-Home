@@ -5,6 +5,10 @@ import House2 from './assets/OIP (2).jpg'
 import House3 from './assets/OIP.jpg'
 import House4 from './assets/8d7f0a0c4b29bbbb324d315b25fac569.jpg'
 
+import Agent1 from './assets/OIP (3).jpg'
+import Agent2 from './assets/OIP (4).jpg'
+import Agent3 from './assets/actor-scott-eastwood-154368_large.jpg'
+import Agent4 from './assets/7015299b410c46ade32ce3a281b474ff.jpg'
 export const housesData = [
     {
       id: 1,
