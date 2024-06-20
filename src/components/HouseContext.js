@@ -36,7 +36,9 @@ useEffect(()=> {
   setProperties(uniqueproperties)
 },[])
 
-
+const handleClick = () => {
+  console .log('clicked')
+}
   return (
     <HouseContext.Provider value={{
       country,
@@ -48,7 +50,8 @@ useEffect(()=> {
       price,
       setPrice,
       houses,
-      loading
+      loading,
+      handleClick,
     }}>{children}</HouseContext.Provider>
   )
 }
