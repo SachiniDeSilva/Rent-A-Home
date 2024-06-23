@@ -15,7 +15,7 @@ const HouseList = () => {
         <div>
           {houses.map ((house, index)=>{
             return (
-              <Link to={'/property/${hous.id}'} key={index}>
+              <Link to={'/property/${house.id}'} key={index}>
                 <House house={house}/>
               </Link>
             )
