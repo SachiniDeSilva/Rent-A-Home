@@ -6,7 +6,7 @@ const House = ({house }) => {
   const {image, type , country, address ,bedrooms, bathrooms, surface, price} = house;
   return (
     <div>
-    <img src={image} alt='' className=''/> 
+    <img src={image} alt='' className='w-48 rounded-ee-3xl rounded-tl-3xl'/> 
     <div>
       <div>
         {type}
