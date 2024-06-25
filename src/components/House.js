@@ -15,7 +15,14 @@ const House = ({house }) => {
      
     </div>
     <div className='text-lg font-semibold max-w-[260px]'>{address}</div>
-    <div></div>
+    <div>
+      <div className='flex items-center gap-1 text-gray-600'>
+        <div className='text-[20px]'>
+          <BiBed/>
+        </div>
+        <div>{bedrooms}</div>
+      </div>
+    </div>
     <div className='text-lg font-semibold text-sky-400 mb-4'>{price}</div>
     </div>
 
