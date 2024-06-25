@@ -15,6 +15,8 @@ const House = ({house }) => {
      
     </div>
     <div className='text-lg font-semibold max-w-[260px]'>{address}</div>
+    <div></div>
+    <div className='text-lg font-semibold text-sky-400 mb-4'>{price}</div>
     </div>
 
 
