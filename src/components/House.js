@@ -15,7 +15,7 @@ const House = ({house }) => {
      
     </div>
     <div className='text-lg font-semibold max-w-[260px]'>{address}</div>
-    <div>
+    <div className='gap-x-4 flex my-4'>
       <div className='flex items-center gap-1 text-gray-600'>
         <div className='text-[20px]'>
           <BiBed/>
