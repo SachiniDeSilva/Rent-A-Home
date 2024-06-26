@@ -37,7 +37,24 @@ useEffect(()=> {
 },[])
 
 const handleClick = () => {
-  console .log('clicked')
+  
+
+
+
+  const isDefault = (str) => {
+    return str.split('').includes('(any)')
+  };
+
+  const minPrice = parseInt(price.split('')[0]);
+
+
+  const maxPrice = parseInt(price.split('')[2])
+
+
+  const newHouses = houseData.filter((house) =>{
+    const housePrice=parseInt(house.price)
+  });
+  return newHouses;
 }
   return (
     <HouseContext.Provider value={{
