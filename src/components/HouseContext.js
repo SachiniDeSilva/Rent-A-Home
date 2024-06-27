@@ -57,6 +57,10 @@ const handleClick = () => {
     if(house.country === country && house.type === property && housePrice >= minPrice && housePrice <= maxPrice) {
       return house
     }
+
+    if(isDefault (country) && isDefault(property ) && isDefault(price)){
+      return house
+    }
   });
   return newHouses;
 }
