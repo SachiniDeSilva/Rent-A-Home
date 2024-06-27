@@ -51,8 +51,12 @@ const handleClick = () => {
   const maxPrice = parseInt(price.split('')[2])
 
 
-  const newHouses = houseData.filter((house) =>{
-    const housePrice=parseInt(house.price)
+  const newHouses = housesData.filter((house) =>{
+    const housePrice = parseInt(house.price)
+
+    if(house.country === country && house.type === property && housePrice >= minPrice && housePrice <= maxPrice) {
+      return house
+    }
   });
   return newHouses;
 }
