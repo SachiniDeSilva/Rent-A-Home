@@ -83,7 +83,11 @@ if(!isDefault(country) && isDefault(property) && !isDefault(price)){
     return house.country === country;
   }
 }
-
+if(!isDefault(country) && !isDefault(property) && !isDefault(price)){
+  if(housePrice >= minPrice && housePrice <= maxPrice){
+    return house.type === property
+  }
+}
   });
   return newHouses;
 }
