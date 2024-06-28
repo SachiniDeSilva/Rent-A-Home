@@ -38,7 +38,7 @@ useEffect(()=> {
 
 const handleClick = () => {
   
-
+setLoading(true);
 
 
   const isDefault = (str) => {
@@ -89,7 +89,11 @@ if(!isDefault(country) && !isDefault(property) && !isDefault(price)){
   }
 }
   });
-  return newHouses;
+ setTimeout(() => {
+  return newHouses.length < 1 ? setHouses([]):
+  setHouses(newHouses);
+  setLoading(false);
+ })
 }
   return (
     <HouseContext.Provider value={{
