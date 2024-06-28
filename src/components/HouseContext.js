@@ -75,7 +75,9 @@ const handleClick = () => {
       }
     }
 
-
+if(!isDefault(country) && !isDefault(property) && isDefault(price)){
+  return house.country === country && house.type === property;
+}
 
   });
   return newHouses;
