@@ -7,6 +7,10 @@ import {ImSpinner2} from 'react-icons/im'
 const HouseList = () => {
 
   const {houses, loading} = useContext (HouseContext)
+if (loading){
+  return(<ImSpinner2 className='mx-auto animate-sprin text-sky-400-4xl mt-[200px]'/>)
+}
+
 
 
   return (
