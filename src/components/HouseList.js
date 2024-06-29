@@ -10,6 +10,10 @@ const HouseList = () => {
 if (loading){
   return(<ImSpinner2 className='mx-auto animate-sprin text-sky-400-4xl mt-[200px]'/>)
 }
+if(houses.length<1){
+  return <div>Sorry, Nothing found </div>
+}
+
 
 
 
