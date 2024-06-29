@@ -108,7 +108,7 @@ if(!isDefault(country) && !isDefault(property) && !isDefault(price)){
       houses,
       loading,
       handleClick,
-      loading
+      loading,
     }}>{children}</HouseContext.Provider>
   )
 }
