@@ -91,7 +91,7 @@ if(!isDefault(country) && !isDefault(property) && !isDefault(price)){
   });
  setTimeout(() => {
   return newHouses.length < 1 ? setHouses([]):
-  setHouses(newHouses);
+  setHouses(newHouses),
   setLoading(false);
  })
 }
