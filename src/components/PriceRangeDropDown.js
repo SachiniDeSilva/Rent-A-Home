@@ -44,7 +44,7 @@ const PriceRangeDropdown = () => {
               <RiArrowUpSLine className='dropdown-icon-secondary '/>
             ) :
           (
-            <RiArrowDownSLine className='dropdown-icon-secondary'/>
+            <RiArrowDownSLine className='dropdown-icon-secondary '/>
           )
           }
         </div>
