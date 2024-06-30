@@ -15,6 +15,14 @@ import House9 from './assets/OIP (9).jpg'
 import House10 from './assets/OIP (10).jpg'
 import House11 from './assets/sri-lanka-koggalahouse-22-800x530.jpg'
 import House12 from './assets/OIP (11).jpg'
+import House16 from './assets/OIP (15).jpg'
+import House17 from './assets/OIP (16).jpg'
+import House18 from './assets/OIP (17).jpg'
+import House19 from './assets/OIP (18).jpg'
+import House20 from './assets/OIP (19).jpg'
+import House21 from './assets/OIP (20).jpg'
+import House22 from './assets/OIP (21).jpg'
+
 
 
 
@@ -52,7 +60,7 @@ export const housesData = [
       name: 'House 2',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House2,
+      image: House13,
     
       country: 'Colombo',
       address: '798 Talbot St. Bridgewater, NJ 08807',
@@ -283,7 +291,7 @@ export const housesData = [
       name: 'House 10',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House13,
+      image: House2,
      
       country: 'Canada',
       address: '84 Woodland St. Cocoa, FL 32927',
@@ -339,15 +347,15 @@ export const housesData = [
         name: 'Amado Smith',
         phone: '0123 456 78910',
       },
-    },/*
+    },
     {
       id: 16,
       type: 'Apartament',
       name: 'Apartament 16',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: Apartment4,
-      imageLg: Apartment4Lg,
+      image: House16,
+     
       country: 'Canada',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '2',
@@ -367,8 +375,8 @@ export const housesData = [
       name: 'Apartament 17',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: Apartment5,
-      imageLg: Apartment5Lg,
+      image: House17,
+      
       country: 'United States',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '3',
@@ -377,7 +385,7 @@ export const housesData = [
       year: '2012',
       price: '32000',
       agent: {
-        image: Agent5,
+        image: Agent1,
         name: 'Grover Robinson',
         phone: '0123 456 78910',
       },
@@ -388,8 +396,8 @@ export const housesData = [
       name: 'Apartament 18',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: Apartment6,
-      imageLg: Apartment6Lg,
+      image: House18,
+      
       country: 'Canada',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '3',
@@ -398,9 +406,9 @@ export const housesData = [
       year: '2010',
       price: '38000',
       agent: {
-        image: Agent6,
+        image: Agent3,
         name: 'Karen Sorensen',
         phone: '0123 456 78910',
       },
-    },*/
+    },
   ];
