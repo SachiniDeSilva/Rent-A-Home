@@ -2,8 +2,23 @@
 
 import House1 from './assets/OIP (1).jpg'
 import House2 from './assets/OIP (2).jpg'
+import House13 from './assets/OIP (14).jpg'
+import House14 from './assets/OIP (13).jpg'
+import House15 from './assets/OIP (12).jpg'
 import House3 from './assets/OIP.jpg'
 import House4 from './assets/8d7f0a0c4b29bbbb324d315b25fac569.jpg'
+import House5 from './assets/OIP (5).jpg'
+import House6 from './assets/OIP (6).jpg'
+import House7 from './assets/OIP (7).jpg'
+import House8 from './assets/OIP (8).jpg'
+import House9 from './assets/OIP (9).jpg'
+import House10 from './assets/OIP (10).jpg'
+import House11 from './assets/sri-lanka-koggalahouse-22-800x530.jpg'
+import House12 from './assets/OIP (11).jpg'
+
+
+
+
 
 import Agent1 from './assets/OIP (3).jpg'
 import Agent2 from './assets/OIP (4).jpg'
@@ -93,7 +108,7 @@ export const housesData = [
         name: 'Kaitlyn Gonzalez',
         phone: '0123 456 78910',
       },
-    },/*
+    },
     {
       id: 5,
       type: 'House',
@@ -101,7 +116,7 @@ export const housesData = [
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House5,
-      imageLg: House5Lg,
+  
       country: 'United States',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '5',
@@ -110,7 +125,7 @@ export const housesData = [
       year: '2015',
       price: '210000',
       agent: {
-        image: Agent5,
+        image: Agent2,
         name: 'Grover Robinson',
         phone: '0123 456 78910',
       },
@@ -122,7 +137,7 @@ export const housesData = [
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House6,
-      imageLg: House6Lg,
+     
       country: 'Canada',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '6',
@@ -131,7 +146,7 @@ export const housesData = [
       year: '2014',
       price: '220000',
       agent: {
-        image: Agent6,
+        image: Agent3,
         name: 'Karen Sorensen',
         phone: '0123 456 78910',
       },
@@ -142,8 +157,8 @@ export const housesData = [
       name: 'Apartament 1',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: Apartment1,
-      imageLg: Apartment1Lg,
+      image: House7,
+     
       country: 'Canada',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '2',
@@ -152,7 +167,7 @@ export const housesData = [
       year: '2012',
       price: '20000',
       agent: {
-        image: Agent7,
+        image: Agent4,
         name: 'Jawhar Shamil Naser',
         phone: '0123 456 78910',
       },
@@ -163,8 +178,8 @@ export const housesData = [
       name: 'Apartament 2',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: Apartment2,
-      imageLg: Apartment2Lg,
+      image: House8,
+     
       country: 'United States',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '3',
@@ -173,7 +188,7 @@ export const housesData = [
       year: '2011',
       price: '30000',
       agent: {
-        image: Agent8,
+        image: Agent1,
         name: 'Juana Douglass',
         phone: '0123 456 78910',
       },
@@ -184,8 +199,8 @@ export const housesData = [
       name: 'Apartament 3',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: Apartment3,
-      imageLg: Apartment3Lg,
+      image:House9,
+    
       country: 'United States',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '2',
@@ -194,7 +209,7 @@ export const housesData = [
       year: '2011',
       price: '40000',
       agent: {
-        image: Agent9,
+        image: Agent4,
         name: 'Jerry Schenck',
         phone: '0123 456 78910',
       },
@@ -205,8 +220,8 @@ export const housesData = [
       name: 'House 7',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House7,
-      imageLg: House7Lg,
+      image: House10,
+      
       country: 'Canada',
       address: '7240C Argyle St. Lawndale, CA 90260',
       bedrooms: '5',
@@ -215,7 +230,7 @@ export const housesData = [
       year: '2015',
       price: '117000',
       agent: {
-        image: Agent10,
+        image: Agent3,
         name: 'Vera Levesque',
         phone: '0123 456 78910',
       },
@@ -226,8 +241,8 @@ export const housesData = [
       name: 'House 8',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House8,
-      imageLg: House8Lg,
+      image: House11,
+     
       country: 'Canada',
       address: '798 Talbot St. Bridgewater, NJ 08807',
       bedrooms: '7',
@@ -236,7 +251,7 @@ export const housesData = [
       year: '2019',
       price: '145000',
       agent: {
-        image: Agent11,
+        image: Agent1,
         name: 'Sofia Gomes',
         phone: '0123 456 78910',
       },
@@ -247,8 +262,8 @@ export const housesData = [
       name: 'House 9',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House9,
-      imageLg: House9Lg,
+      image: House12,
+    
       country: 'United States',
       address: '2 Glen Creek St. Alexandria, VA 22304',
       bedrooms: '4',
@@ -257,7 +272,7 @@ export const housesData = [
       year: '2015',
       price: '139000',
       agent: {
-        image: Agent12,
+        image: Agent2,
         name: 'Raymond Hood',
         phone: '0123 456 78910',
       },
@@ -268,8 +283,8 @@ export const housesData = [
       name: 'House 10',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House10,
-      imageLg: House10Lg,
+      image: House13,
+     
       country: 'Canada',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '5',
@@ -289,8 +304,8 @@ export const housesData = [
       name: 'House 11',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House11,
-      imageLg: House11Lg,
+      image: House14,
+     
       country: 'United States',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '5',
@@ -310,8 +325,8 @@ export const housesData = [
       name: 'House 12',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-      image: House12,
-      imageLg: House12Lg,
+      image: House15,
+     
       country: 'Canada',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '4',
@@ -324,7 +339,7 @@ export const housesData = [
         name: 'Amado Smith',
         phone: '0123 456 78910',
       },
-    },
+    },/*
     {
       id: 16,
       type: 'Apartament',
