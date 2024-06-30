@@ -10,14 +10,16 @@ const Banner = () => {
           <h1 className='text-4xl lg:text-[58px] font-semibold leading-none mb-6'>
             <span className='text-sky-400'>Rent</span> Your Dream House With Us.
           </h1>
-          <p>
-            lorem20
+          <p className='text-semibold text-xl'>
+            
+          We've all been there. Look no further than Rent-A-Home! We're a revolutionary hose rental platform that makes finding and renting the ideal hose for your needs quick, easy, and hassle-free.
+            
 
 
           </p>
         </div>
         <div className='hidden flex-1 lg:flex justify-end items-end'>
-          <img className='rounded-ee-[90px] rounded-tl-[90px] ' src={Image} alt=''/>
+          <img className='rounded-ee-[90px] rounded-tl-[90px] min-h-80' src={Image} alt=''/>
         </div>
       </div>
       <Search/>
