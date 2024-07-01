@@ -12,10 +12,10 @@ const Header = () => {
         <img className='w-2/5  h-auto'  src={logo} alt=''/>
     </Link>
     <div className='flex items-center gap-6'>
-      <Link  className='hover:text-sky-400 transition' to=''>
+      <Link  className='hover:text-sky-500 transition' to=''>
       Log in
       </Link>
-      <Link className='bg-sky-400 hover:bg-sky-300 text-white px-4 py-2 rounded-lg transition'  to=''>
+      <Link className='bg-sky-500 hover:bg-sky-400 text-white px-4 py-3 rounded-lg transition'  to=''>
       Sign up
       </Link>
 
