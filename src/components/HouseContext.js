@@ -27,11 +27,11 @@ const HouseContextProvider = ({children}) => {
 /*property*/
 
 useEffect(()=> {
-  const allProperties = houses.map(()=>{
-    return houses.type;
+  const allProperties = houses.map((house)=>{
+    return house.type;
   })
   
-  const uniqueproperties = ['Location (any)', new Set(allProperties)];
+  const uniqueproperties = ['Location (any)', ... new Set(allProperties)];
 
 
   setProperties(uniqueproperties)

@@ -47,7 +47,7 @@ export const housesData = [
       bathrooms: '3',
       surface: '4200 sq ft',
       year: '2016',
-      price: '110000',
+      price: 'Rs.110,000',
       agent: {
         image: Agent1,
         name: 'Patricia Tullert',
@@ -56,7 +56,7 @@ export const housesData = [
     },
     {
       id: 2,
-      type: 'House',
+      type: 'Apartment',
       name: 'House 2',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
@@ -68,7 +68,7 @@ export const housesData = [
       bathrooms: '3',
       surface: '4200 sq ft',
       year: '2016',
-      price: '140000',
+      price: 'Rs.140,000',
       agent: {
         image: Agent2,
         name: 'Daryl Hawker',
@@ -83,13 +83,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House3,
       
-      country: 'United States',
+      country: 'Piliyandala',
       address: '2 Glen Creek St. Alexandria, VA 22304',
       bedrooms: '6',
       bathrooms: '3',
       surface: '4200 sq ft',
       year: '2016',
-      price: '170000',
+      price: 'Rs.170,000',
       agent: {
         image: Agent3,
         name: 'Amado Smith',
@@ -104,13 +104,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House4,
      
-      country: 'Canada',
+      country: 'Gampaha',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '6',
       bathrooms: '3',
       surface: '4200 sq ft',
       year: '2016',
-      price: '200000',
+      price: 'Rs.200,000',
       agent: {
         image: Agent4,
         name: 'Kaitlyn Gonzalez',
@@ -125,13 +125,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House5,
   
-      country: 'United States',
+      country: 'Nittabuwa',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '5',
       bathrooms: '3',
       surface: '4200 sq ft',
       year: '2015',
-      price: '210000',
+      price: 'Rs.210,000',
       agent: {
         image: Agent2,
         name: 'Grover Robinson',
@@ -146,13 +146,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House6,
      
-      country: 'Canada',
+      country: 'Colombo',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '6',
       bathrooms: '3',
       surface: '6200 sq ft',
       year: '2014',
-      price: '220000',
+      price: 'Rs.220,000',
       agent: {
         image: Agent3,
         name: 'Karen Sorensen',
@@ -161,19 +161,19 @@ export const housesData = [
     },
     {
       id: 7,
-      type: 'Apartament',
+      type: 'House',
       name: 'Apartament 1',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House7,
      
-      country: 'Canada',
+      country: 'Piliyandala',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '2',
       bathrooms: '1',
       surface: '1200 sq ft',
       year: '2012',
-      price: '20000',
+      price: 'Rs.200,000',
       agent: {
         image: Agent4,
         name: 'Jawhar Shamil Naser',
@@ -182,19 +182,19 @@ export const housesData = [
     },
     {
       id: 8,
-      type: 'Apartament',
+      type: 'House',
       name: 'Apartament 2',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House8,
      
-      country: 'United States',
+      country: 'Galle',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '3',
       bathrooms: '1',
       surface: '1000 sq ft',
       year: '2011',
-      price: '30000',
+      price: 'Rs.30,000',
       agent: {
         image: Agent1,
         name: 'Juana Douglass',
@@ -203,19 +203,19 @@ export const housesData = [
     },
     {
       id: 9,
-      type: 'Apartament',
+      type: 'House',
       name: 'Apartament 3',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image:House9,
     
-      country: 'United States',
+      country: 'Mathra',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '2',
       bathrooms: '1',
       surface: '1100 sq ft',
       year: '2011',
-      price: '40000',
+      price: 'Rs.40,000',
       agent: {
         image: Agent4,
         name: 'Jerry Schenck',
@@ -230,13 +230,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House10,
       
-      country: 'Canada',
+      country: 'Kandy',
       address: '7240C Argyle St. Lawndale, CA 90260',
       bedrooms: '5',
       bathrooms: '3',
       surface: '3200 sq ft',
       year: '2015',
-      price: '117000',
+      price: 'Rs.117,000',
       agent: {
         image: Agent3,
         name: 'Vera Levesque',
@@ -251,13 +251,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House11,
      
-      country: 'Canada',
+      country: 'Nuwara Eliya',
       address: '798 Talbot St. Bridgewater, NJ 08807',
       bedrooms: '7',
       bathrooms: '2',
       surface: '2200 sq ft',
       year: '2019',
-      price: '145000',
+      price: 'Rs.145,000',
       agent: {
         image: Agent1,
         name: 'Sofia Gomes',
@@ -272,13 +272,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House12,
     
-      country: 'United States',
+      country: 'Badulla',
       address: '2 Glen Creek St. Alexandria, VA 22304',
       bedrooms: '4',
       bathrooms: '4',
       surface: '4600 sq ft',
       year: '2015',
-      price: '139000',
+      price: 'Rs.139,000',
       agent: {
         image: Agent2,
         name: 'Raymond Hood',
@@ -293,13 +293,13 @@ export const housesData = [
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House2,
      
-      country: 'Canada',
+      country: 'Ja-Ela',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '5',
       bathrooms: '2',
       surface: '5200 sq ft',
       year: '2014',
-      price: '180000',
+      price: 'Rs.180,000',
       agent: {
         image: Agent1,
         name: 'Patricia Tullert',
@@ -308,13 +308,13 @@ export const housesData = [
     },
     {
       id: 14,
-      type: 'House',
+      type: 'Apartment',
       name: 'House 11',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House14,
      
-      country: 'United States',
+      country: 'Colombo',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '5',
       bathrooms: '2',
@@ -329,19 +329,19 @@ export const housesData = [
     },
     {
       id: 15,
-      type: 'House',
+      type: 'Apartment',
       name: 'House 12',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House15,
      
-      country: 'Canada',
+      country: 'Colombo',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '4',
       bathrooms: '3',
       surface: '5200 sq ft',
       year: '2013',
-      price: '221000',
+      price: 'Rs.221,000',
       agent: {
         image: Agent3,
         name: 'Amado Smith',
@@ -350,13 +350,13 @@ export const housesData = [
     },
     {
       id: 16,
-      type: 'Apartament',
+      type: 'House',
       name: 'Apartament 16',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House16,
      
-      country: 'Canada',
+      country: 'Colombo',
       address: '32 Pawnee Street Butte, MT 59701',
       bedrooms: '2',
       bathrooms: '1',
@@ -371,19 +371,19 @@ export const housesData = [
     },
     {
       id: 17,
-      type: 'Apartament',
+      type: 'House',
       name: 'Apartament 17',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House17,
       
-      country: 'United States',
+      country: 'Nittabuwa',
       address: '28 Westport Dr. Warminster, PA 18974',
       bedrooms: '3',
       bathrooms: '1',
       surface: '1000 sq ft',
       year: '2012',
-      price: '32000',
+      price: 'Rs.32,000',
       agent: {
         image: Agent1,
         name: 'Grover Robinson',
@@ -392,19 +392,19 @@ export const housesData = [
     },
     {
       id: 18,
-      type: 'Apartament',
+      type: 'House',
       name: 'Apartament 18',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
       image: House18,
       
-      country: 'Canada',
+      country: 'Mathara',
       address: '84 Woodland St. Cocoa, FL 32927',
       bedrooms: '3',
       bathrooms: '1',
       surface: '1200 sq ft',
       year: '2010',
-      price: '38000',
+      price: 'Rs.38,000',
       agent: {
         image: Agent3,
         name: 'Karen Sorensen',
