@@ -10,7 +10,7 @@ const Banner = () => {
           <h1 className='text-4xl lg:text-[58px] font-semibold leading-none mb-6 '>
             <span className='text-sky-400'>Rent</span> Your Dream House With Us.
           </h1>
-          <p className='text-semibold text-xl '>
+          <p className='text-semibold '>
             
           We've all been there. Look no further than Rent-A-Home! We're a revolutionary hose rental platform that makes finding and renting the ideal hose for your needs quick, easy, and hassle-free.
             
